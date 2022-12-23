@@ -1,6 +1,6 @@
 # TO-DO APP (with JS)
 
-![Netlify Status](https://api.netlify.com/api/v1/badges/7c40e8c8-b9de-43d9-8a30-c6d8ee83a018/deploy-status)](https://app.netlify.com/sites/dous-to-do/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7c40e8c8-b9de-43d9-8a30-c6d8ee83a018/deploy-status)](https://app.netlify.com/sites/dous-to-do/deploys)
 
 - Basic to-do app created with vanilla JS.
 - Used bootstrap for css.
