@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="text-center mt-5">TO-DO List App</h1>
+    <div class="container mt-5" id="content">
+        <div id="alert"></div>
+        <form class="d-flex flex-column justify-content-center align-items-center gap-2">
+            <div class="input-group">
+                <input class="form-control" id="input" type="text" autofocus>
+                <button type="submit" class="btn btn-success" onclick="add()">Add</button>
+            </div>
+            <div class="w-100">
+                <button type="button" class="btn btn-dark w-100" onclick="clearAll()">Clear All</button>
+            </div>
+        </form>
+        <ul id="list" class="list-group mt-4">
+            
+        </ul>
+    </div>
+
+    <!-- Footer -->
+    <div class="container" id="footer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 mb-md-0 text-muted">@dous</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" target="_blank" href="https://github.com/dogusmiuw"><i class="fa-brands fa-github"></i></a></li>
+            <li class="ms-3"><a class="text-muted" target="_blank" href="https://linkedin.com/in/dogukancelik"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="ms-3"><a class="text-muted" target="_blank" href="https://douss.medium.com"><i class="fa-brands fa-medium"></i></a></li>
+          </ul>
+        </footer>
+      </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

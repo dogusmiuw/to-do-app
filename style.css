@@ -1,0 +1,6 @@
+#footer{
+    height: 45vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
